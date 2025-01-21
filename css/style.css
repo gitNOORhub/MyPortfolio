@@ -9982,3 +9982,18 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+/* Custom styles for the image carousel */
+.owl-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

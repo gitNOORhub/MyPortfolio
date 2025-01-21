@@ -112,6 +112,23 @@
         loop: true,
         items: 1
     });
+
+    //image carousel
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,                // Enable looping of items
+            margin: 10,                // Add margin between items
+            nav: true,                 // Show navigation arrows
+            dots: true,                // Show dots for pagination
+            autoplay: true,            // Enable auto-play
+            autoplayTimeout: 3000,     // Auto-play delay (in ms)
+            responsive: {
+                0: { items: 1 },       // 1 item for screens 0px and up
+                600: { items: 2 },     // 2 items for screens 600px and up
+                1000: { items: 3 }     // 3 items for screens 1000px and up
+            }
+        });
+    });
     
 })(jQuery);
 
