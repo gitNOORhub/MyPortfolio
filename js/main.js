@@ -114,6 +114,8 @@
     });
 
     //image carousel
+
+    
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
             loop: true,                // Enable looping of items
